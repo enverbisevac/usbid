@@ -1,0 +1,63 @@
+- base: 00h
+  descriptor: Device
+  description: Use class information in the Interface Descriptors
+- base: 01h
+  descriptor: Interface
+  description: Audio
+- base: 02h
+  descriptor: Both
+  description: Communications and CDC Control
+- base: 03h
+  descriptor: Interface
+  description: HID (Human Interface Device)
+- base: 05h
+  descriptor: Interface
+  description: Physical
+- base: 06h
+  descriptor: Interface
+  description: Image
+- base: 07h
+  descriptor: Interface
+  description: Printer
+- base: 08h
+  descriptor: Interface
+  description: Mass Storage
+- base: 09h
+  descriptor: Device
+  description: Hub
+- base: 0Ah
+  descriptor: Interface
+  description: CDC-Data
+- base: 0Bh
+  descriptor: Interface
+  description: Smart Card
+- base: 0Dh
+  descriptor: Interface
+  description: Content Security
+- base: 0Eh
+  descriptor: Interface
+  description: Video
+- base: 0Fh
+  descriptor: Interface
+  description: Personal Healthcare
+- base 10h:
+  descriptor: Interface
+  description: Audio/Video devices
+- base: 11h
+  descriptor: Device
+  description: Billboard Device Class
+- base: 12h
+  descriptor: Interface
+  description: USB Type-C Bridge Class
+- base: DCh
+  descriptor: Both
+  description: Diagnostic device
+- base: E0h
+  descriptor: Interface
+  description: Wireless Controller
+- base: EFh
+  descriptor: Both
+  description: Miscellaneous
+- base: FFh
+  descriptor: Both
+  description: Vendor specific

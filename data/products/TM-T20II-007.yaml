@@ -1,0 +1,6 @@
+0E15:
+  - class: 07h
+    name: TM-T20II 007
+    drivers:
+      - escpos
+    profile: TM-T20II

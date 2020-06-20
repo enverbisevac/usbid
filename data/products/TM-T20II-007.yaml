@@ -1,6 +1,6 @@
 0E15:
-  class: 07h
-  vendorId: 04b8
+  class: "07"
+  vendorId: "04b8"
   name: TM-T20II 007
   description: Receipt printer
   drivers:

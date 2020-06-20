@@ -1,8 +1,9 @@
 0E15:
-  - class: 07h
-    name: TM-T20II 007
-    description: Receipt printer
-    drivers:
-      - escpos
-    profiles:
-      - TM-T20II
+  class: 07h
+  vendorId: 04b8
+  name: TM-T20II 007
+  description: Receipt printer
+  drivers:
+    - escpos
+  profiles:
+    - TM-T20II

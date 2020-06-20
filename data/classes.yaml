@@ -40,7 +40,7 @@
 - base: 0Fh
   descriptor: Interface
   description: Personal Healthcare
-- base 10h:
+- base: 10h
   descriptor: Interface
   description: Audio/Video devices
 - base: 11h

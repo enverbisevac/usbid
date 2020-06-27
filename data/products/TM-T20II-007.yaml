@@ -3,7 +3,15 @@
   vendorId: "04b8"
   name: TM-T20II 007
   description: Receipt printer
+  url: https://www.epson.rs/viewcon/corporatesite/products/mainunits/overview/20641?sid=mvsdn1e9nbaulsmc80gqpuca2f
   drivers:
     - escpos
   profiles:
     - TM-T20II
+  default:
+    deviceProperties:
+      interface:
+        value: 0
+        endpoints:
+          out: 1
+          in: 2
